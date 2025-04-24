@@ -1,83 +1,15 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt_br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jogo do Dino</title>
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    body {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      background-color: #111;
-      color: white;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      padding: 1em;
-      text-align: center;
-      background-color: #222;
-      width: 100%;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-
-    .game-container {
-      position: relative;
-      width: 100%;
-      max-width: 1280px;
-      height: 720px;
-      background-color: #000;
-    }
-
-    #c2canvasdiv {
-      width: 100%;
-      height: 100%;
-    }
-
-    footer {
-      margin-top: 2em;
-      padding: 1em;
-      text-align: center;
-      color: #aaa;
-      font-size: 0.9em;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameDino</title>
 </head>
 <body>
-  <header>
-    <h1>Jogo do Dino</h1>
-  </header>
-
-  <div class="game-container">
-    <div id="c2canvasdiv"></div>
-  </div>
-
-  <noscript>
-    <div id="notSupportedWrap">
-      <h2 id="notSupportedTitle">Este conteúdo requer JavaScript</h2>
-      <p class="notSupportedMessage">Por favor, ative o JavaScript para jogar.</p>
-    </div>
-  </noscript>
-
-  <!-- Scripts do jogo -->
-  <script src="scripts/modernjscheck.js"></script>
-  <script src="scripts/supportcheck.js"></script>
-  <script src="scripts/offlineclient.js" type="module"></script>
-  <script src="scripts/main.js" type="module"></script>
-  <script src="scripts/register-sw.js" type="module"></script>
-
-  <footer>
-    &copy; 2025 Seu Nome ou Estúdio. Feito com Construct 3.
-  </footer>
+    <iframe src="GameDino/index.html" width="100%" height="500px"></iframe>
+        <p>
+            <a href="GameDino/index.html" target="_blank">
+            Abrir o Jogo em um Nova Página
+            <p>
 </body>
 </html>
